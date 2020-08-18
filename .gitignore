@@ -1,6 +1,6 @@
 # Ignore everything
 node_modules
-src
+src/*
 package-lock.json
 
 # But not these files...
