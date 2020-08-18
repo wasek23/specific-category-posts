@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+label strong{
+    width: 140px;
+}
+
+input, select{
+    min-width: 200px;
+    width: calc(100% - 140px);
+    padding: 5px 10px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+
+    input, select{
+        min-width: 100px;
+    }
+}
+
+img.wp-post-image{
+    width: 100%;
+    height: auto;
+}
