@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Plugin Name: Specific Category Posts
  * Description: Block to show specific category posts.
  * Author: Wasek Bellah
